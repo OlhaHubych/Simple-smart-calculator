@@ -47,8 +47,8 @@
         
         console.log(buttons[0].style.display == "none");
             if(buttons[0].style.display === "none" || buttons[0].style.display === "") {
-                buttons[0].style.display = "inline-block";
-                buttons[1].style.display = "inline-block";
+                buttons[0].style.display = "block";
+                buttons[1].style.display = "block";
                 xOpen = true;
                 if(yOpen) {
                     y.style.visibility = "visible";
@@ -73,8 +73,8 @@
     btn_control[1].addEventListener('click', function(e){
         
             if(buttons[2].style.display === "none" || buttons[2].style.display === "") {
-                buttons[2].style.display = "inline-block";
-                buttons[3].style.display = "inline-block";
+                buttons[2].style.display = "block";
+                buttons[3].style.display = "block";
                 y.style.visibility = "visible";
                 $('#y-lebel').style.visibility = "visible";
                 yOpen = true;
